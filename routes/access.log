@@ -1,0 +1,4 @@
+::1 - - [29/Sep/2021:07:16:32 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+::1 - - [29/Sep/2021:07:18:07 +0000] "POST /WAmsg HTTP/1.1" 500 81 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+::1 - - [29/Sep/2021:07:29:18 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+[0mGET / [36m304[0m 205.600 ms - -[0m

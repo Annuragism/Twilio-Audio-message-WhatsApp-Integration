@@ -1,0 +1,93 @@
+doctype html
+html(lang="en")
+  head
+    title Twilio Tutorial
+    link(rel='icon', 
+      type='image/png', 
+      href="data:image/png;base64,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")
+    // We use Twitter Bootstrap as the default styling for our page
+    link(rel='stylesheet', 
+      href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+    link(rel='stylesheet', 
+      href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css')
+
+    // Include CSS for our third-party telephone input jQuery plugin
+    link(rel='stylesheet', href='/vendor/intl-phone/css/intlTelInput.css')
+  body
+    .container
+      h1 Fake A Call
+      //- p.
+      //-   Click To Call converts your website's users into engaged customers by 
+      //-   creating an easy way for your customers to contact your sales and 
+      //-   support teams right on your website.
+
+      p Here's an example of how it's done!
+
+      hr
+
+      // C2C contact form
+      .row
+        .col-md-12
+          form(id='contactForm', role='form')
+            .form-group
+              h3 Prototype Calling Model
+              p.help-block.
+                This will contact you directly.
+            label Your Name or Message
+            .form-group
+              input.form-control(type='text', id='name', 
+                placeholder='Jon Doe or Mesage')
+            label Your Number
+            .form-group
+              input.form-control(type='text', id='phoneNumber', 
+                placeholder='(651) 555-7889')
+            //- label Sales Team Number 
+            //- .form-group
+            //-   input.form-control(type='text', id='salesNumber', 
+            //-     placeholder='(651) 555-7889')
+            button(type='submit', class='btn btn-default') Call now ! 
+            
+      hr
+      .h1 or Send Messages to Number
+      .row
+        .col-md-12
+          form(id='msgForm', role='form')
+            .form-group
+              h3 Prototype Messagning Model
+              p.help-block.
+                This will send you message right away.
+            label Your Name or Message
+            .form-group
+              input.form-control(type='text', id='msg', 
+                placeholder='Type your Message')
+            label Your Number
+            .form-group
+              input.form-control(type='text', id='msgPhoneNumber', placeholder='(651) 555-7889')
+               
+            button(type='submit', class='btn btn-default') Message now !   
+      hr
+      .h1 or Send WhatsApp Message
+      .row
+        .col-md-12
+          form(id='WAmsgForm', role='form')
+            .form-group
+              h3 Prototype WhatsApp Model
+              p.help-block.
+                This will send you Whatsapp message right away.
+            label Your Name or Message
+            .form-group
+              input.form-control(type='text', id='WAmsg', 
+                placeholder='Type your Message')
+            label Your WhatsApp Number
+            .form-group
+              input.form-control(type='text', id='WAnumber', placeholder='(651) 555-7889')
+               
+            button(type='submit', class='btn btn-default') Whatsapp now !          
+            
+
+    // Include page dependencies
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='/vendor/intl-phone/js/intlTelInput.min.js')
+
+    // Our app's front-end JavaScript logic
+    script(src='/app.js')
